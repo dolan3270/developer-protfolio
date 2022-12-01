@@ -16,10 +16,15 @@ body {
 
 section {
     display: flex;
+    margin-bottom: 150px;
 }
 
 .half-width {
     width: 50%;
+}
+
+.top-banner-p {
+    margin-bottom: 50px;
 }
 
 .half-width img {
@@ -28,13 +33,24 @@ section {
 
 .link-button {
     text-decoration: none;
-    background-image: linear-gradient(orange, tomato);
+    background-image: linear-gradient(tomato, red);
     padding: 10px 40px;
     color: white;
     font-weight: 700;
     border-radius: 5px;
     background-repeat: no-repeat;
 
+}
+
+.top-banner {
+    background-image: url('images/top-banner.png');
+    background-repeat: no-repeat;
+}
+
+.dream-blog {
+    background-image: url('images/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 .top-banner {
