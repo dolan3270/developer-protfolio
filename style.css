@@ -1,10 +1,42 @@
-.div-head{
+.div-head {
     font-family: 'Tangerine', serif;
     font-size: 35px;
     text-shadow: 4px 4px 4px #aaa;
 
 }
-body{
-    font-family: 'Poppins', sans-serif;
 
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+.span-color {
+    color: orange;
+}
+
+section {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.half-width img {
+    width: 80%;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+
+}
+
+.top-banner {
+    background-image: url(images/top-banner.png);
 }
