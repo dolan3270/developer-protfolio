@@ -8,6 +8,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0px;
+
 }
 
 .span-color {
@@ -25,12 +26,14 @@ body {
 
 .top-banner-p {
     margin-bottom: 50px;
+
 }
 
 .exprience-area {
     background-image: url('images/exp-bg.png');
     background-repeat: no-repeat;
     background-position: left;
+    padding-left: 5%;
 }
 
 
@@ -82,12 +85,14 @@ footer p {
 .top-banner {
     background-image: url('images/top-banner.png');
     background-repeat: no-repeat;
+    padding-left: 5%;
 }
 
 .dream-blog {
     background-image: url('images/dream-bg.png');
     background-repeat: no-repeat;
     background-position: right;
+    padding-left: 5%;
 }
 
 .top-banner {
